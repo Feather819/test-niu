@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta charset="utf-8" />   <!--告訴瀏覽器需用utf-8編碼打開-->
+<title>CSS</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="title underline">這是第一段的標題</div>   <!--div以區做顯示，會換行-->
+    <div class="content">  
+        今天的<span class="keyword">天氣</span>不太好   <!--span功能與div同，但不換行-->
+    </div>
+    
+    <div class="title underline">這是第二段的標題</div>  <!--class可對應多個-->
+    <div class="content">
+        今天的<span class="keyword">心情</span>不太好 
+    </div>
+</body>
+</html>
+
+
+<!--
+<style>
+/*這是CSS的註解*/
+/*標籤名稱選擇器*/
+body{background-color: #cccccc; text-align: center}   /*text
+/*class選擇器：對應標籤*/
+.title   
+{color: #008899;
+ font-widtn:bold;
+  font-size:24px}  
+
+.content
+{color: gray;
+border:1px dashed blue;
+padding: 10px;
+margin-top:10px}  /* border邊框/dashed斜縣:solid實線/padding框高/margin與其他框的距離*/
+
+.keyword
+{color: red}
+
+.underline{text-decoration: underline}
+</style>
+-->
